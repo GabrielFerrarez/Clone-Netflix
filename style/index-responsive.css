@@ -1,0 +1,36 @@
+@media screen and (max-width: 700px){
+
+    header div.container {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    header h1.Logo {
+        margin-bottom: 10px;
+    }
+
+
+    div.filme-principal div#botao-filme-principal .botao{
+        margin-bottom: 15px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    div.filme-principal h3.titulo{
+        font-size: 40px;
+    }
+    
+    
+    div.filme-principal p.descricao{
+        margin-bottom: 10%;
+        font-size: 13px;
+    }
+
+    div.filme-principal div.container {
+        max-width: 60%;
+    }    
+
+}
